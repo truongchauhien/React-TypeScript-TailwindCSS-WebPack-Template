@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "Bundler"
+  },
+  "files": ["./src/index.ts"],
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "global.d.ts",
+    "src"
+  ]
+}
